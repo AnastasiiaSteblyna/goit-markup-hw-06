@@ -223,10 +223,9 @@
 
     <footer class="footer">
       <div class="container footer-container">
+        <!-- Лого и адреса компании -->
         <div>
-          <!-- Лого компании -->
           <a class="logo logo-footer" href="/">Web<span class="logo-foot">Studio</span> </a>
-          <!-- Адреса компании -->
           <address>
             <ul class="adress-list-footer">
               <li><a class="address-foot" href="/">г. Киев, пр-т Леси Украинки, 26</a></li>
@@ -235,6 +234,7 @@
             </ul>
           </address>
         </div>
+        <!-- Ссылки социальных сетей -->
         <div class="footer-soc-links-container">
           <h3 class="footer-soc-text">Присоединяйтесь</h3>
           <ul class="footer-soc-list">
@@ -268,6 +268,23 @@
             </li>
           </ul>
         </div>
+        <!-- Формы -->
+        <form class="footer-form-container">
+          <div>
+            <p class="footer-form-caption">Подпишитесь на рассылку</p>
+            <div class="footer-form-field">
+              <input type="email" name="mail" id="footer-mail" placeholder="E-mail" />
+            </div>
+          </div>
+          <div>
+            <button type="submit" class="footer-submit-button">
+              Подписаться
+              <svg class="submit-button_icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-icon-send"></use>
+              </svg>
+            </button>
+          </div>
+        </form>
       </div>
     </footer>
   </body>

@@ -397,7 +397,12 @@
             </div>
           </div>
           <div>
-            <button type="submit" class="footer-submit-button">Подписаться</button>
+            <button type="submit" class="footer-submit-button">
+              Подписаться
+              <svg class="submit-button_icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-icon-send"></use>
+              </svg>
+            </button>
           </div>
         </form>
       </div>
@@ -454,16 +459,16 @@
             ></textarea>
           </div>
 
-          <div class="form-field">
-            <label class="checkbox-label">
-              <input type="checkbox" name="check" id="check" />
-              <span class="checkbox-icon">
+          <div class="check-container">
+            <label class="check">
+              <input class="check_input" type="checkbox" name="check" />
+              <span class="check_icon">
                 <svg width="16" height="15">
-                  <use href="./images/icons.svg#icon-icon-check"></use>
+                  <use href="./images/icons.svg#icon-check"></use>
                 </svg>
               </span>
               Соглашаюсь с рассылкой и принимаю
-              <a href="" class="checkbox-link">Условия договора</a>
+              <a href="" class="check_link">Условия договора</a>
             </label>
           </div>
 
