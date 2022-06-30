@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -19,8 +19,9 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
-  <body class="portfolio-body">
+  <body>
     <header>
       <!-- Навигация -->
       <div class="section header--position">
@@ -61,158 +62,158 @@
     </header>
     <main>
       <section>
-        <div class="container portfolio-container">
+        <div class="section portfolio">
           <!-- Фильтры -->
-          <ul class="filter-container">
-            <li class="list"><button class="filters" type="button">Все</button></li>
-            <li class="list"><button class="filters" type="button">Вэб-сайты</button></li>
-            <li class="list"><button class="filters" type="button">Приложения</button></li>
-            <li class="list"><button class="filters" type="button">Дизайн</button></li>
-            <li class="list"><button class="filters" type="button">Маркетинг</button></li>
+          <ul class="portfolio__filters">
+            <li><button class="portfolio__button" type="button">Все</button></li>
+            <li><button class="portfolio__button" type="button">Вэб-сайты</button></li>
+            <li><button class="portfolio__button" type="button">Приложения</button></li>
+            <li><button class="portfolio__button" type="button">Дизайн</button></li>
+            <li><button class="portfolio__button" type="button">Маркетинг</button></li>
           </ul>
           <!-- Портфолио -->
-          <ul class="boxes-container">
-            <li class="box">
-              <a class="box-link" href="">
-                <div class="box-thumb">
+          <ul class="portfolio__gallery">
+            <li class="gallery__item">
+              <a class="gallery__link" href="">
+                <div class="gallery__link--wrap">
                   <img src="./images/technocryak.jpg" alt="Технокряк" width="370" />
-                  <p class="box-thumb-overlay">
+                  <p class="gallery__overlay">
                     Ресурс предлагает комплексные предложения с разным уровнем функционала и
                     сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании
                     или частном лице.
                   </p>
                 </div>
-                <div class="box-border">
-                  <h3 class="box-title">Технокряк</h3>
-                  <p class="box-text">Веб-сайт</p>
+                <div class="gallery__border">
+                  <h3 class="gallery__title">Технокряк</h3>
+                  <p class="gallery__text">Веб-сайт</p>
                 </div>
               </a>
             </li>
-            <li class="box">
-              <a class="box-link" href="">
-                <div class="box-thumb">
+            <li class="gallery__item">
+              <a class="gallery__link" href="">
+                <div class="gallery__link--wrap">
                   <img src="./images/neworlean.jpg" alt="New Orlean vs Golden Star" width="370" />
-                  <p class="box-thumb-overlay">
+                  <p class="gallery__overlay">
                     Ресурс предлагает комплексные предложения с разным уровнем функционала и
                     сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании
                     или частном лице.
                   </p>
                 </div>
-                <div class="box-border">
-                  <h3 class="box-title">Постер New Orlean vs Golden Star</h3>
-                  <p class="box-text">Дизайн</p>
+                <div class="gallery__border">
+                  <h3 class="gallery__title">Постер New Orlean vs Golden Star</h3>
+                  <p class="gallery__text">Дизайн</p>
                 </div>
               </a>
             </li>
-            <li class="box">
-              <a class="box-link" href="">
-                <div class="box-thumb">
+            <li class="gallery__item">
+              <a class="gallery__link" href="">
+                <div class="gallery__link--wrap">
                   <img src="./images/seafood.jpg" alt="Seafood" width="370" />
-                  <p class="box-thumb-overlay">
+                  <p class="gallery__overlay">
                     Ресурс предлагает комплексные предложения с разным уровнем функционала и
                     сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании
                     или частном лице.
                   </p>
                 </div>
-                <div class="box-border">
-                  <h3 class="box-title">Ресторан Seafood</h3>
-                  <p class="box-text">Приложение</p>
+                <div class="gallery__border">
+                  <h3 class="gallery__title">Ресторан Seafood</h3>
+                  <p class="gallery__text">Приложение</p>
                 </div>
               </a>
             </li>
-            <li class="box">
-              <a class="box-link" href="">
-                <div class="box-thumb">
+            <li class="gallery__item">
+              <a class="gallery__link" href="">
+                <div class="gallery__link--wrap">
                   <img src="./images/prime.jpg" alt="Prime" width="370" />
-                  <p class="box-thumb-overlay">
+                  <p class="gallery__overlay">
                     Ресурс предлагает комплексные предложения с разным уровнем функционала и
                     сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании
                     или частном лице.
                   </p>
                 </div>
-                <div class="box-border">
-                  <h3 class="box-title">Проект Prime</h3>
-                  <p class="box-text">Маркетинг</p>
+                <div class="gallery__border">
+                  <h3 class="gallery__title">Проект Prime</h3>
+                  <p class="gallery__text">Маркетинг</p>
                 </div>
               </a>
             </li>
-            <li class="box">
-              <a class="box-link" href="">
-                <div class="box-thumb">
+            <li class="gallery__item">
+              <a class="gallery__link" href="">
+                <div class="gallery__link--wrap">
                   <img src="./images/boxes.jpg" alt="Boxes" width="370" />
-                  <p class="box-thumb-overlay">
+                  <p class="gallery__overlay">
                     Ресурс предлагает комплексные предложения с разным уровнем функционала и
                     сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании
                     или частном лице.
                   </p>
                 </div>
-                <div class="box-border">
-                  <h3 class="box-title">Проект Boxes</h3>
-                  <p class="box-text">Приложение</p>
+                <div class="gallery__border">
+                  <h3 class="gallery__title">Проект Boxes</h3>
+                  <p class="gallery__text">Приложение</p>
                 </div>
               </a>
             </li>
-            <li class="box">
-              <a class="box-link" href="">
-                <div class="box-thumb">
+            <li class="gallery__item">
+              <a class="gallery__link" href="">
+                <div class="gallery__link--wrap">
                   <img src="./images/inspiration.jpg" alt="Inspiration" width="370" />
-                  <p class="box-thumb-overlay">
+                  <p class="gallery__overlay">
                     Ресурс предлагает комплексные предложения с разным уровнем функционала и
                     сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании
                     или частном лице.
                   </p>
                 </div>
-                <div class="box-border">
-                  <h3 class="box-title">Inspiration has no Borders</h3>
-                  <p class="box-text">Веб-сайт</p>
+                <div class="gallery__border">
+                  <h3 class="gallery__title">Inspiration has no Borders</h3>
+                  <p class="gallery__text">Веб-сайт</p>
                 </div>
               </a>
             </li>
-            <li class="box">
-              <a class="box-link" href="">
-                <div class="box-thumb">
+            <li class="gallery__item">
+              <a class="gallery__link" href="">
+                <div class="gallery__link--wrap">
                   <img src="./images/limitededition.jpg" alt="limited edition" width="370" />
-                  <p class="box-thumb-overlay">
+                  <p class="gallery__overlay">
                     Ресурс предлагает комплексные предложения с разным уровнем функционала и
                     сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании
                     или частном лице.
                   </p>
                 </div>
-                <div class="box-border">
-                  <h3 class="box-title">Издание Limited Edition</h3>
-                  <p class="box-text">Дизайн</p>
+                <div class="gallery__border">
+                  <h3 class="gallery__title">Издание Limited Edition</h3>
+                  <p class="gallery__text">Дизайн</p>
                 </div>
               </a>
             </li>
-            <li class="box">
-              <a class="box-link" href="">
-                <div class="box-thumb">
+            <li class="gallery__item">
+              <a class="gallery__link" href="">
+                <div class="gallery__link--wrap">
                   <img src="./images/lab.jpg" alt="LAB" width="370" />
-                  <p class="box-thumb-overlay">
+                  <p class="gallery__overlay">
                     Ресурс предлагает комплексные предложения с разным уровнем функционала и
                     сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании
                     или частном лице.
                   </p>
                 </div>
-                <div class="box-border">
-                  <h3 class="box-title">Проект LAB</h3>
-                  <p class="box-text">Маркетинг</p>
+                <div class="gallery__border">
+                  <h3 class="gallery__title">Проект LAB</h3>
+                  <p class="gallery__text">Маркетинг</p>
                 </div>
               </a>
             </li>
-            <li class="box">
-              <a class="box-link" href="">
-                <div class="box-thumb">
+            <li class="gallery__item">
+              <a class="gallery__link" href="">
+                <div class="gallery__link--wrap">
                   <img src="./images/growingbusiness.jpg" alt="Growing business" width="370" />
-                  <p class="box-thumb-overlay">
+                  <p class="gallery__overlay">
                     Ресурс предлагает комплексные предложения с разным уровнем функционала и
                     сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании
                     или частном лице.
                   </p>
                 </div>
-                <div class="box-border">
-                  <h3 class="box-title">Growing Business</h3>
-                  <p class="box-text">Приложение</p>
+                <div class="gallery__border">
+                  <h3 class="gallery__title">Growing Business</h3>
+                  <p class="gallery__text">Приложение</p>
                 </div>
               </a>
             </li>
@@ -222,7 +223,7 @@
     </main>
 
     <footer class="footer">
-      <div class="footer__section container">
+      <div class="footer__section section">
         <!-- Лого и адреса компании -->
         <div>
           <a class="logo footer__logo" href="/"
@@ -243,29 +244,29 @@
           <h3 class="soc-links__caption">Присоединяйтесь</h3>
           <ul class="soc-links__list">
             <li class="soc-links__item">
-              <a href="" class="soc-link__link">
-                <svg class="soc-link__icon--footer" width="20" height="20">
+              <a href="" class="soc-link__link soc-link__link--footer-colors">
+                <svg class="soc-link__icon" width="20" height="20">
                   <use href="./images/icons.svg#icon-instagram"></use>
                 </svg>
               </a>
             </li>
             <li class="soc-links__item">
-              <a href="" class="soc-link__link">
-                <svg class="soc-link__icon--footer" width="20" height="20">
+              <a href="" class="soc-link__link soc-link__link--footer-colors">
+                <svg class="soc-link__icon" width="20" height="20">
                   <use href="./images/icons.svg#icon-twitter"></use>
                 </svg>
               </a>
             </li>
             <li class="soc-links__item">
-              <a href="" class="soc-link__link">
-                <svg class="soc-link__icon--footer" width="20" height="20">
+              <a href="" class="soc-link__link soc-link__link--footer-colors">
+                <svg class="soc-link__icon" width="20" height="20">
                   <use href="./images/icons.svg#icon-fb"></use>
                 </svg>
               </a>
             </li>
             <li class="soc-links__item">
-              <a href="" class="soc-link__link">
-                <svg class="soc-link__icon--footer" width="20" height="20">
+              <a href="" class="soc-link__link soc-link__link--footer-colors">
+                <svg class="soc-link__icon" width="20" height="20">
                   <use href="./images/icons.svg#icon-linkedin"></use>
                 </svg>
               </a>
